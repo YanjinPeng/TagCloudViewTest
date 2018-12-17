@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    >
+   <!--android:background="@drawable/milky_way"-->
+   <com.moxun.tagcloudlib.view.TagCloudView
+       android:id="@+id/tag_cloud"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       app:autoScrollMode="uniform"
+       app:darkColor="#ff7f22"
+       app:lightColor="#ff5fff"
+       app:radiusPercent="0.6"
+       app:scrollSpeed="3"
+       >
+   </com.moxun.tagcloudlib.view.TagCloudView>
+
+</android.support.constraint.ConstraintLayout>
